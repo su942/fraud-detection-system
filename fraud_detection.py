@@ -2,6 +2,10 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+url = "https://your-link-to/fraud_detection_pipeline.pkl"
+urllib.request.urlretrieve(url, "fraud_detection_pipeline.pkl")
+
+
 model = joblib.load("fraud_detection_pipeline.pkl")
 
 st.title("FRaud Detection  Prediction App")
