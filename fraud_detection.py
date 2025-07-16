@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import urllib.request
+
 
 url = "https://your-link-to/fraud_detection_pipeline.pkl"
 urllib.request.urlretrieve(url, "fraud_detection_pipeline.pkl")
