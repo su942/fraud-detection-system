@@ -4,7 +4,7 @@ import joblib
 import urllib.request
 
 
-url = "https://drive.google.com/file/d/1RF06Yhk2zXD4099z5WzJuhv9NnZOLACJ/view?usp=drive_link"
+url = "https://github.com/su942/fraud-detection-system/blob/main/fraud_detection_pipeline.pkl"
 urllib.request.urlretrieve(url, "fraud_detection_pipeline.pkl")
 
 
